@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import iconLunea from '@/assets/lunea.png';
 
 const Hero = () => {
   return (
@@ -6,12 +7,9 @@ const Hero = () => {
       <div className="container mx-auto px-4 py-16">
         <div className="flex flex-col items-center text-center gap-8">
           <div className="space-y-6">
-            <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight">
-              LUNEA
-            </h1>
-            <p className="text-2xl md:text-3xl font-light tracking-widest text-muted-foreground">
-              SIMPLE & FEMENINA
-            </p>
+            <div className="w-[350px] md:w-[450px]">
+                  <img src={iconLunea} alt="" />
+              </div>
           </div>
 
           <Button variant="pink" size="lg" className="mt-4">
